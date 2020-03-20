@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a)
+a) The runtime complexity of this is simply `O(n)`. Using algebra, you can divide both the end condition and the increment by `n * n` to get what equates to a simple for loop, iterating `n` times.
 
 
-b)
+b) The first for loop is of runtime complexity `O(n)` as it simply runs `n` times. The inner loop involves doubling `j` every iteration, making its growth exponential. That means that the inner loop has a runtime complexity of `O(log(n))`. Since the inner loop is run for every iteration of the outer loop, the combined runtime complexity would be `O(n*log(n))`.
 
 
-c)
+c) This function will double the input number. It runs recursively and runs the function for `n - 1` each time, ending at `0`. This means the function will be run for every value from `0` to `n` exactly once, making its runtime complexity `O(n)`.
 
 ## Exercise II
 
