@@ -106,6 +106,7 @@ class SortingRobot:
             self.set_light_off()
             while self.can_move_right():
                 # Move right all the way through the list
+                # Pick up the current item
                 self.swap_item()
                 self.move_right()
                 if self.compare_item() == 1:
