@@ -12,4 +12,4 @@ c) This function will double the input number. It runs recursively and runs the 
 
 ## Exercise II
 
-
+Setting `f` as large as possible would minimize the number of broken eggs and thus the number of dropped + broken eggs. If `f` can only be as large as `n`, then `f = n` would result in only eggs dropped from the top floor to be broken. If it can be larger than `n`, then `f = n + 1` would result in no eggs breaking. Each solution has a runtime complexity of `O(1)`.
